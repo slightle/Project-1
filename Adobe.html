@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adobe</title>
+<style>
+	a {
+		position:absolute;
+		left:90%;
+		top: 90%;
+	}
+ .container {
+   position: absolute;
+   width: 20%;
+ }
+ #first {
+ left: 7.5%;
+ top: 77%;
+}
+ #second  {
+left: 86%;
+ top: 54%;
+}
+ #third {
+left: 59%;
+ top: .2%;
+}
+  .image {
+   display: block;
+   width: 50%;
+   height: auto;
+ }
+  .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: auto;
+   width: 70%;
+   opacity: 0;
+   transition: .4s ease;
+   background-color: #008CBA;
+ }
+  .container:hover .overlay {
+   opacity: 1;
+ }
+  .text {
+   color: black;
+   font-size: 16px;
+   position: absolute;
+   text-align: center;
+ }
+ </style>
+</head>
+<body background="Adobe.jpg" style="background-repeat: no-repeat; height: 100vh; width: 100vw;background-image: url('Adobe.jpg'); background-position: center center;background-size: cover;max-height: 100vh;">
+<div class="container" id="first">
+ <img src="Adobe Left Dot.png" alt="Adobe Left Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> This house rested in the heart of Sante Fe, echoing its culture with adobe walls and blue accents. Many residents add in touches to personalize the outside. 
+   </div>
+ </div>
+</div>
+  
+<div class="container" id="second">
+ <img src="Adobe Lower Right Dot.png" alt="Adobe Lower Right Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Adobe houses are made of dried mud brick, which is able to stand earthquakes, intense wind and heat. Because the walls absorb heat, it keeps the inside cool. 
+   </div>
+ </div>
+</div>
+ 
+<div class="container" id="third">
+ <img src="Adobe Middle Dot.png" alt="Adobe Middle Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Adobe buildings are some of the longest standest structures in civilization, as well as being inexpensive to build, making them a popular choice.
+  </div>
+ </div>
+</div>
+<a href="Welcome to New Mexico.html"><br><br><center><p style="font-size:20px; font-family;cambria; background-color: aqua"> Home </p></center></a>
+</body>
+</html>

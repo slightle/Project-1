@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sante Fe</title>
+<style>
+	a {
+		position:absolute;
+		left:90%;
+		top: 90%;
+	}
+ .container {
+   position: absolute;
+   width: 20%;
+ }
+ #first {
+ left: 4.45%;
+ top: 73.4%;
+}
+ #second  {
+left: 60.45%;
+ top: 6.4%;
+}
+  .image {
+   display: block;
+   width: 50%;
+   height: auto;
+ }
+  .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: auto;
+   width: 80%;
+   opacity: 0;
+   transition: .4s ease;
+   background-color: #008CBA;
+ }
+  .container:hover .overlay {
+   opacity: 1;
+ }
+  .text {
+   color: black;
+   font-size: 16px;
+   position: absolute;
+   text-align: center;
+ }
+ </style>
+</head>
+<body background="Sante Fe.JPG" style="background-repeat: no-repeat; height: 100vh; width: 100vw;background-image: url('Sante Fe.JPG'); background-position: center center;background-size: cover;max-height: 100vh;">
+<div class="container" id="first">
+ <img src="Sante Fe Left Dot.png" alt="Sante Fe Left Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Resting in the center square of downtown Sante Fe is the historic La Fonda hotel. This is one of several adobe buildings in the square, encapsulating the brightness of the culture with its adobe exterior and light accents. 
+   </div>
+ </div>
+</div>
+  
+<div class="container" id="second">
+ <img src="Sante Fe Top Dot.png" alt="Sante Fe Top Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Sante Fe is also home to the oldest church and the oldest building in the United States, and is known for having hanging chiles drying in the wind outside of door frames!
+   </div>
+ </div>
+</div>
+	<a href="Welcome to New Mexico.html"><br><br><center><p style="font-size:20px; font-family;cambria; background-color: aqua"> Home </p></center></a> 
+</body>
+</html>

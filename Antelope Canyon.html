@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antelope Canyon</title>
+<style>
+	a {
+		position:absolute;
+		left:90%;
+		top: 90%;
+	}
+ .container {
+   position: absolute;
+   width: 20%;
+ }
+ #first {
+ left: 65.7%;
+ top: 16%;
+}
+ #second  {
+left: 14%;
+ top: 23%;
+}
+ #third {
+left: 30%;
+ top: 88.5%;
+}
+  .image {
+   display: block;
+   width: 50%;
+   height: auto;
+ }
+  .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: auto;
+   width: 85%;
+   opacity: 0;
+   transition: .4s ease;
+   background-color: #008CBA;
+ }
+  .container:hover .overlay {
+   opacity: 1;
+ }
+  .text {
+   color: black;
+   font-size: 18px;
+   position: absolute;
+   text-align: center;
+ }
+ </style>
+</head>
+<body background="Antelope Canyon.jpg" style="background-repeat: no-repeat; height: 100vh; width: 100vw;background-image: url('Antelope Canyon.jpg'); background-position: center center;background-size: cover;max-height: 100vh;">
+<div class="container" id="first">
+ <img src="Right Dot.png" alt="Right Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Dramatic shadows are cast as a result of the slot-style canyon, excellent for photographing. Being a photographer myself, I barely did any editing! 
+   </div>
+ </div>
+</div>
+  
+<div class="container" id="second">
+ <img src="Left Dot.png" alt="Left Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Towards the border of New Mexico and Arizona rests Antelope Canyon. It is composed of sandstone that has been eroded by water and wind to develop a magnificent slot canyon. 
+   </div>
+ </div>
+</div>
+ 
+<div class="container" id="third">
+ <img src="Middle Dot.png" alt="Middle Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Ironically, the best viewing of the canyon is in the heat of the day, at high noon, where the sun filters in the top to create profound streams of light.
+  </div>
+ </div>
+</div>
+	<a href="Welcome to New Mexico.html"><br><br><center><p style="font-size:20px; font-family;cambria; background-color: aqua"> Home </p></center></a> 
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Gallery</title>
+<style>
+	a {
+		position:absolute;
+		left:90%;
+		top: 90%;
+	}
+ .container {
+   position: absolute;
+   width: 20%;
+ }
+ #first {
+ left: 23.6%;
+ top: 53.3%;
+}
+ #second  {
+left: 65%;
+ top: 90%;
+}
+  .image {
+   display: block;
+   width: 50%;
+   height: auto;
+ }
+  .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: auto;
+   width: 80%;
+   opacity: 0;
+   transition: .4s ease;
+   background-color: #008CBA;
+ }
+  .container:hover .overlay {
+   opacity: 1;
+ }
+  .text {
+   color: black;
+   font-size: 18px;
+   position: absolute;
+   text-align: center;
+ }
+ </style>
+</head>
+<body background="The Gallery.jpg" style="background-repeat: no-repeat; height: 100vh; width: 100vw;background-image: url('The Gallery.jpg'); background-position: center center;background-size: cover;max-height: 100vh;">
+<div class="container" id="first">
+ <img src="Gallery Left Dot.png" alt="Gallery Left Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> Travelling a little further outside of the city square, there rests streets lined with riveting art galleries, with everything from paintings to metal art! 
+   </div>
+ </div>
+</div>
+  
+<div class="container" id="second">
+ <img src="Gallery Right Dot.png" alt="Gallery Right Dot" class="image" />
+ <div class="overlay">
+   <div class="text"> This art gallery in particular is lined with paintings, sculptures, photography and drawings done by artists across the world!
+   </div>
+ </div>
+</div>
+	<a href="Welcome to New Mexico.html"><br><br><center><p style="font-size:20px; font-family;cambria; background-color: aqua"> Home </p></center></a> 
+</body>
+</html>
